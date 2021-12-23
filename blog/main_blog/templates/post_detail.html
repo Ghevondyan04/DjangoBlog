@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detail View</title>
+</head>
+<body>
+<h1>{{ post.title }}</h1>
+<small>By: {{ post.author }}</small>
+<hr>
+<br/>
+{{ post.body }}
+<br/><br/>
+<a href="{% url 'home' %}"> BACK</a>
+</body>
+</html>
